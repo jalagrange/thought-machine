@@ -25,7 +25,7 @@ module Fintech
     config.serve_static_assets = true
     config.assets.initialize_on_precompile = false
     
-    confi.assets.paths << Rails.root.join("app","assets")
+    config.assets.paths << Rails.root.join("app","assets")
     
   end
 end
